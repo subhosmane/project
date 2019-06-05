@@ -1,0 +1,15 @@
+git version
+git config --global user.name "subhosmane"
+git config --global user.email "sh228261@gmail.com"
+git status
+mkdir project
+cd project/
+git init
+***Make sure "project" repo is created in web github
+git remote add origin https://github.com/subhosmane/project.git
+vi helloworld.py **Sample file
+git add helloworld.py
+git status
+git commit -m "testfile"
+git push origin master
+git clone https://github.com/subhosmane/project.git
